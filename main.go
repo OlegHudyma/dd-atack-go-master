@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	siteFilePath       = "./loadedSites.json"
+	siteFilePath       = "./sites.json"
 	proxyFilePath      = "./proxy.json"
 	responseProxyCount = 15
 )
@@ -34,10 +34,17 @@ func HandleRequest() (*Response, error) {
 		}
 	}
 
-	siteToAttackIndex := getRandIntInRange(len(needAttackSites))
+	siteToAttackIndex, err := getRandIntInRange(len(needAttackSites))
+	if err != nil {
+		return nil, err
+	}
+
 	siteToAttack := needAttackSites[siteToAttackIndex]
 
-	randProxies := getNRandProxyFromSlice(loadedProxies, responseProxyCount)
+	randProxies, err := getNRandProxyFromSlice(loadedProxies, responseProxyCount)
+	if err != nil {
+		return nil, err
+	}
 
 	response := &Response{
 		Site:  siteToAttack,
@@ -51,13 +58,16 @@ func main() {
 	lambda.Start(HandleRequest)
 }
 
-func getNRandProxyFromSlice(proxies []proxy, count int) []proxy {
+func getNRandProxyFromSlice(proxies []proxy, count int) ([]proxy, error) {
 	randProxies := make([]proxy, count)
 
 	proxiesLength := len(proxies)
 
 	for i := 0; i < count; i++ {
-		randIndex := getRandIntInRange(proxiesLength)
+		randIndex, err := getRandIntInRange(proxiesLength)
+		if err != nil {
+			return nil, err
+		}
 
 		randProxies[i] = proxies[randIndex]
 
@@ -66,7 +76,7 @@ func getNRandProxyFromSlice(proxies []proxy, count int) []proxy {
 		proxiesLength--
 	}
 
-	return randProxies
+	return randProxies, nil
 }
 
 func getSitesFromFile(filename string) ([]site, error) {
