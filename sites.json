@@ -161,9 +161,9 @@
   },
   {
     "id": 21,
-    "url": "https://russian.rt.com/",
+    "url": "http://government.ru/",
     "need_parse_url": 0,
-    "page": "russian.rt.com/nopolitics/article/964215-film-mister-nokaut",
+    "page": "http://government.ru/",
     "page_time": "0.27993",
     "atack": 1
   },
@@ -225,19 +225,19 @@
   },
   {
     "id": 29,
-    "url": "http://www.vesti.ru/",
+    "url": "https://lukoil.ru",
     "need_parse_url": 0,
-    "page": "http://www.vesti.ru/",
+    "page": "https://lukoil.ru",
     "page_time": "30.00372",
-    "atack": 0
+    "atack": 1
   },
   {
     "id": 30,
-    "url": "https://tvrain.ru/",
+    "url": "https://www.nalog.gov.ru/",
     "need_parse_url": 0,
-    "page": "tvrain.ru/live/womenabove/",
+    "page": "https://www.nalog.gov.ru/",
     "page_time": "7.91154",
-    "atack": 0
+    "atack": 1
   },
   {
     "id": 31,
@@ -369,9 +369,9 @@
   },
   {
     "id": 47,
-    "url": "https://ren.tv",
+    "url": "https://www.gazprom.ru/",
     "need_parse_url": 1,
-    "page": "https://ren.tv",
+    "page": "https://www.gazprom.ru/",
     "page_time": "0.00000",
     "atack": 1
   },
@@ -453,7 +453,7 @@
     "need_parse_url": 1,
     "page": "https://www.sberbank.ru/ru/person",
     "page_time": "0.00000",
-    "atack": 1
+    "atack": 0
   },
   {
     "id": 58,
@@ -473,9 +473,9 @@
   },
   {
     "id": 60,
-    "url": "https://www.rbc.ru/",
+    "url": "https://www.mos.ru/uslugi/",
     "need_parse_url": 1,
-    "page": "https://www.rbc.ru/",
+    "page": "https://www.mos.ru/uslugi/",
     "page_time": "0.00000",
     "atack": 1
   },
@@ -501,7 +501,7 @@
     "need_parse_url": 1,
     "page": "https://life.ru/",
     "page_time": "0.00000",
-    "atack": 1
+    "atack": 0
   },
   {
     "id": 64,
@@ -550,5 +550,197 @@
     "page": "http://economy.council.gov.ru/",
     "page_time": "0.00000",
     "atack": 1
+  },
+  {
+    "id": 70,
+    "url": "http://magnit.ru/",
+    "need_parse_url": 1,
+    "page": "http://magnit.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 71,
+    "url": "http://www.nornickel.com/",
+    "need_parse_url": 1,
+    "page": "http://www.nornickel.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 72,
+    "url": "http://www.surgutneftegas.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.surgutneftegas.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 73,
+    "url": "http://www.tatneft.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.tatneft.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 74,
+    "url": "http://www.evraz.com/",
+    "need_parse_url": 1,
+    "page": "http://www.evraz.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 75,
+    "url": "http://nlmk.com/",
+    "need_parse_url": 1,
+    "page": "http://nlmk.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 76,
+    "url": "http://www.sibur.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.sibur.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 77,
+    "url": "http://www.severstal.com/",
+    "need_parse_url": 1,
+    "page": "http://www.severstal.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 78,
+    "url": "http://www.metalloinvest.com/",
+    "need_parse_url": 1,
+    "page": "http://www.metalloinvest.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 79,
+    "url": "http://nangs.org/",
+    "need_parse_url": 1,
+    "page": "http://nangs.org/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 80,
+    "url": "http://rmk-group.ru/",
+    "need_parse_url": 1,
+    "page": "http://rmk-group.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 81,
+    "url": "http://www.tmk-group.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.tmk-group.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 82,
+    "url": "http://ya.ru/",
+    "need_parse_url": 1,
+    "page": "http://ya.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 83,
+    "url": "http://www.polymetalinternational.com/",
+    "need_parse_url": 1,
+    "page": "http://www.polymetalinternational.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 84,
+    "url": "http://www.uralkali.com/",
+    "need_parse_url": 1,
+    "page": "http://www.uralkali.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 85,
+    "url": "http://www.eurosib.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.eurosib.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 86,
+    "url": "http://ugmk.ua/",
+    "need_parse_url": 1,
+    "page": "http://ugmk.ua/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 87,
+    "url": "http://omk.ru/",
+    "need_parse_url": 1,
+    "page": "http://omk.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 88,
+    "url": "http://www.vtb.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.vtb.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 89,
+    "url": "http://www.gazprombank.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.gazprombank.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 90,
+    "url": "http://mil.ru/",
+    "need_parse_url": 1,
+    "page": "http://mil.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 91,
+    "url": "http://customs.gov.ru/",
+    "need_parse_url": 1,
+    "page": "http://customs.gov.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 92,
+    "url": "http://pfr.gov.ru/",
+    "need_parse_url": 1,
+    "page": "http://pfr.gov.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 93,
+    "url": "http://rkn.gov.ru/",
+    "need_parse_url": 1,
+    "page": "http://rkn.gov.ru/",
+    "page_time": 0,
+    "atack": 0
   }
 ]
