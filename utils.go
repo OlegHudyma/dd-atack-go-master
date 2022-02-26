@@ -1,13 +1,13 @@
 package main
 
 import (
+	"io/ioutil"
 	"math/rand"
-	"os"
 	"time"
 )
 
 func readFromFile(filename string) ([]byte, error) {
-	return os.ReadFile(filename)
+	return ioutil.ReadFile(filename)
 }
 
 func getRandIntInRange(randRange int) int {
