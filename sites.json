@@ -1,0 +1,554 @@
+[
+  {
+    "id": 1,
+    "url": "http://www.kremlin.ru/",
+    "need_parse_url": 0,
+    "page": "www.kremlin.ru/events/administration/67773",
+    "page_time": "0.34878",
+    "atack": 0
+  },
+  {
+    "id": 2,
+    "url": "http://kremlin.ru/",
+    "need_parse_url": 0,
+    "page": "http://kremlin.ru/",
+    "page_time": "0.12159",
+    "atack": 1
+  },
+  {
+    "id": 3,
+    "url": "http://www.scrf.gov.ru/",
+    "need_parse_url": 0,
+    "page": "www.scrf.gov.ru/news/allnews/3131/",
+    "page_time": "0.43222",
+    "atack": 0
+  },
+  {
+    "id": 4,
+    "url": "http://www.kremlin.ru/",
+    "need_parse_url": 0,
+    "page": "www.kremlin.ru#sidebar",
+    "page_time": "0.36085",
+    "atack": 0
+  },
+  {
+    "id": 5,
+    "url": "http://sovetnational.ru/",
+    "need_parse_url": 0,
+    "page": "sovetnational.ru/information-support/news/sonko-komi-poluchat-subsidii-na-realizaciyu-proektov-v-etnokulturnoy-sfere.html",
+    "page_time": "0.47943",
+    "atack": 0
+  },
+  {
+    "id": 6,
+    "url": "http://president-sovet.ru/",
+    "need_parse_url": 0,
+    "page": "president-sovet.ru/events/",
+    "page_time": "0.89481",
+    "atack": 0
+  },
+  {
+    "id": 7,
+    "url": "http://www.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://www.council.gov.ru/",
+    "page_time": "0.23822",
+    "atack": 0
+  },
+  {
+    "id": 8,
+    "url": "http://council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://council.gov.ru/",
+    "page_time": "0.11765",
+    "atack": 0
+  },
+  {
+    "id": 9,
+    "url": "http://legislation.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://legislation.council.gov.ru/",
+    "page_time": "0.12419",
+    "atack": 0
+  },
+  {
+    "id": 10,
+    "url": "http://region.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://region.council.gov.ru/",
+    "page_time": "0.13352",
+    "atack": 0
+  },
+  {
+    "id": 11,
+    "url": "http://defence.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://defence.council.gov.ru/",
+    "page_time": "0.11531",
+    "atack": 0
+  },
+  {
+    "id": 12,
+    "url": "http://international.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://international.council.gov.ru/",
+    "page_time": "0.11866",
+    "atack": 0
+  },
+  {
+    "id": 13,
+    "url": "http://budget.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://budget.council.gov.ru/",
+    "page_time": "0.12292",
+    "atack": 0
+  },
+  {
+    "id": 14,
+    "url": "http://economy.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://economy.council.gov.ru/",
+    "page_time": "0.10559",
+    "atack": 0
+  },
+  {
+    "id": 15,
+    "url": "http://agrarian.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://agrarian.council.gov.ru/",
+    "page_time": "0.12781",
+    "atack": 0
+  },
+  {
+    "id": 16,
+    "url": "http://social.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://social.council.gov.ru/",
+    "page_time": "0.18032",
+    "atack": 0
+  },
+  {
+    "id": 17,
+    "url": "http://science.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://science.council.gov.ru/",
+    "page_time": "0.11895",
+    "atack": 0
+  },
+  {
+    "id": 18,
+    "url": "http://reglament.council.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://reglament.council.gov.ru/",
+    "page_time": "0.11689",
+    "atack": 0
+  },
+  {
+    "id": 19,
+    "url": "http://www.duma.gov.ru/",
+    "need_parse_url": 0,
+    "page": "www.duma.gov.ru/news/commissions/",
+    "page_time": "18.66791",
+    "atack": 1
+  },
+  {
+    "id": 20,
+    "url": "http://duma.gov.ru/",
+    "need_parse_url": 0,
+    "page": "duma.gov.ru/search/",
+    "page_time": "0.81653",
+    "atack": 0
+  },
+  {
+    "id": 21,
+    "url": "https://russian.rt.com/",
+    "need_parse_url": 0,
+    "page": "russian.rt.com/nopolitics/article/964215-film-mister-nokaut",
+    "page_time": "0.27993",
+    "atack": 1
+  },
+  {
+    "id": 22,
+    "url": "http://life.ru/",
+    "need_parse_url": 0,
+    "page": "life.ru/p/1473037",
+    "page_time": "0.61646",
+    "atack": 0
+  },
+  {
+    "id": 23,
+    "url": "http://www.rbc.ru/",
+    "need_parse_url": 0,
+    "page": "https://www.rbc.ru/politics/24/02/2022/6217c1099a79474539808a9a?from=newsfeed",
+    "page_time": "0.36738",
+    "atack": 0
+  },
+  {
+    "id": 24,
+    "url": "http://www.vedomosti.ru/",
+    "need_parse_url": 0,
+    "page": "www.vedomosti.ru/opinion/articles/2022/02/23/910645-zaschitu-patentnih-trollei",
+    "page_time": "1.48695",
+    "atack": 0
+  },
+  {
+    "id": 25,
+    "url": "https://www.gazeta.ru/",
+    "need_parse_url": 0,
+    "page": "https://www.gazeta.ru/",
+    "page_time": "29.53582",
+    "atack": 0
+  },
+  {
+    "id": 26,
+    "url": "http://lenta.ru/",
+    "need_parse_url": 0,
+    "page": "http://lenta.ru/",
+    "page_time": "29.53598",
+    "atack": 0
+  },
+  {
+    "id": 27,
+    "url": "http://www.interfax.ru/",
+    "need_parse_url": 0,
+    "page": "www.interfax.ru/business/824318",
+    "page_time": "0.25853",
+    "atack": 0
+  },
+  {
+    "id": 28,
+    "url": "http://www.kommersant.ru/",
+    "need_parse_url": 0,
+    "page": "www.kommersant.ru/fm?from=burger",
+    "page_time": "17.78888",
+    "atack": 0
+  },
+  {
+    "id": 29,
+    "url": "http://www.vesti.ru/",
+    "need_parse_url": 0,
+    "page": "http://www.vesti.ru/",
+    "page_time": "30.00372",
+    "atack": 0
+  },
+  {
+    "id": 30,
+    "url": "https://tvrain.ru/",
+    "need_parse_url": 0,
+    "page": "tvrain.ru/live/womenabove/",
+    "page_time": "7.91154",
+    "atack": 0
+  },
+  {
+    "id": 31,
+    "url": "https://ria.ru/",
+    "need_parse_url": 0,
+    "page": "https://ria.ru/",
+    "page_time": "30.00249",
+    "atack": 1
+  },
+  {
+    "id": 32,
+    "url": "https://rg.ru/",
+    "need_parse_url": 0,
+    "page": "rg.ru/tema/lifecity/",
+    "page_time": "1.67566",
+    "atack": 0
+  },
+  {
+    "id": 33,
+    "url": "http://izvestia.ru/",
+    "need_parse_url": 0,
+    "page": "izvestia.ru/1296478/dmitrii-peskov-oproverg-slukhi-o-ddos-atake-na-sait-kremlia",
+    "page_time": "0.83304",
+    "atack": 0
+  },
+  {
+    "id": 34,
+    "url": "https://tass.ru/",
+    "need_parse_url": 0,
+    "page": "https://tass.ru/",
+    "page_time": "30.00235",
+    "atack": 0
+  },
+  {
+    "id": 35,
+    "url": "http://www.scrf.gov.ru/",
+    "need_parse_url": 0,
+    "page": "http://www.scrf.gov.ru/",
+    "page_time": "0.18338",
+    "atack": 0
+  },
+  {
+    "id": 36,
+    "url": "https://m.lenta.ru/",
+    "need_parse_url": 0,
+    "page": "https://m.lenta.ru/",
+    "page_time": "29.53293",
+    "atack": 0
+  },
+  {
+    "id": 37,
+    "url": "https://www.1tv.ru",
+    "need_parse_url": 1,
+    "page": "https://www.1tv.ru",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 38,
+    "url": "https://more.tv/online/russia1_hd",
+    "need_parse_url": 1,
+    "page": "https://more.tv/online/russia1_hd",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 39,
+    "url": " https://more.tv/online/russia1_hd",
+    "need_parse_url": 1,
+    "page": " https://more.tv/online/russia1_hd",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 40,
+    "url": "https://smotrim.ru/brand/21385",
+    "need_parse_url": 1,
+    "page": "https://smotrim.ru/brand/21385",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 41,
+    "url": "https://smotrim.ru/brand/60851",
+    "need_parse_url": 1,
+    "page": "https://smotrim.ru/brand/60851",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 42,
+    "url": "https://www.vokrug.tv/product/show/poedinok/",
+    "need_parse_url": 1,
+    "page": "https://www.vokrug.tv/product/show/poedinok/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 43,
+    "url": "https://vesti7.ru",
+    "need_parse_url": 1,
+    "page": "https://vesti7.ru",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 44,
+    "url": "https://kino.mail.ru/tvshow_851444_vremya_pokazhet/",
+    "need_parse_url": 1,
+    "page": "https://kino.mail.ru/tvshow_851444_vremya_pokazhet/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 45,
+    "url": "https://www.1tv.ru/shows/vystupleniya-prezidenta-rossii",
+    "need_parse_url": 1,
+    "page": "https://www.1tv.ru/shows/vystupleniya-prezidenta-rossii",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 46,
+    "url": "https://tvzvezda.ru",
+    "need_parse_url": 1,
+    "page": "https://tvzvezda.ru",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 47,
+    "url": "https://ren.tv",
+    "need_parse_url": 1,
+    "page": "https://ren.tv",
+    "page_time": "0.00000",
+    "atack": 1
+  },
+  {
+    "id": 48,
+    "url": "https://www.ntv.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.ntv.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 49,
+    "url": "https://www.m24.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.m24.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 50,
+    "url": "https://360tv.ru/",
+    "need_parse_url": 1,
+    "page": "https://360tv.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 51,
+    "url": "https://www.kp.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.kp.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 52,
+    "url": "https://www.fontanka.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.fontanka.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 53,
+    "url": "https://www.mk.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.mk.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 54,
+    "url": "https://news.ru/",
+    "need_parse_url": 1,
+    "page": "https://news.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 55,
+    "url": "https://www.investing.com/",
+    "need_parse_url": 1,
+    "page": "https://www.investing.com/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 56,
+    "url": "https://yandex.ru",
+    "need_parse_url": 1,
+    "page": "https://yandex.ru",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 57,
+    "url": "https://www.sberbank.ru/ru/person",
+    "need_parse_url": 1,
+    "page": "https://www.sberbank.ru/ru/person",
+    "page_time": "0.00000",
+    "atack": 1
+  },
+  {
+    "id": 58,
+    "url": "https://iz.ru/tag/vladimir-putin",
+    "need_parse_url": 1,
+    "page": "https://iz.ru/tag/vladimir-putin",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 59,
+    "url": "http://www.government.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.government.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 60,
+    "url": "https://www.rbc.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.rbc.ru/",
+    "page_time": "0.00000",
+    "atack": 1
+  },
+  {
+    "id": 61,
+    "url": "https://eadaily.com/",
+    "need_parse_url": 1,
+    "page": "https://eadaily.com/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 62,
+    "url": "https://www.gosuslugi.ru/",
+    "need_parse_url": 1,
+    "page": "https://www.gosuslugi.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 63,
+    "url": "https://life.ru/",
+    "need_parse_url": 1,
+    "page": "https://life.ru/",
+    "page_time": "0.00000",
+    "atack": 1
+  },
+  {
+    "id": 64,
+    "url": "https://mosmetro.ru/",
+    "need_parse_url": 1,
+    "page": "https://mosmetro.ru/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 65,
+    "url": "https://dnronline.su/",
+    "need_parse_url": 1,
+    "page": "https://dnronline.su/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 66,
+    "url": "https://dnr-news.com/",
+    "need_parse_url": 1,
+    "page": "https://dnr-news.com/",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 67,
+    "url": "https://sputniknews.com",
+    "need_parse_url": 1,
+    "page": "https://sputniknews.com",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 68,
+    "url": "https://wagnera.ru/",
+    "need_parse_url": 1,
+    "page": "https://wagnera.ru?c=1",
+    "page_time": "0.00000",
+    "atack": 0
+  },
+  {
+    "id": 69,
+    "url": "http://economy.council.gov.ru/",
+    "need_parse_url": 1,
+    "page": "http://economy.council.gov.ru/",
+    "page_time": "0.00000",
+    "atack": 1
+  }
+]
