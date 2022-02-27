@@ -16,7 +16,9 @@ type site struct {
 }
 
 type siteResponse struct {
-	ID int `json:"id"`
+	ID   int    `json:"id"`
+	URL  string `json:"url"`
+	Page string `json:"page"`
 }
 
 type Response struct {
