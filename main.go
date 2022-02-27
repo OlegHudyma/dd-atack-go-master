@@ -3,10 +3,11 @@ package main
 import (
 	"encoding/json"
 	"github.com/aws/aws-lambda-go/lambda"
+	"math/rand"
 )
 
 const (
-	siteFilePath       = "./loadedSites.json"
+	siteFilePath       = "./sites.json"
 	proxyFilePath      = "./proxy.json"
 	responseProxyCount = 15
 )
@@ -34,13 +35,20 @@ func HandleRequest() (*Response, error) {
 		}
 	}
 
-	siteToAttackIndex := getRandIntInRange(len(needAttackSites))
+	var src cryptoSource
+	randGen := rand.New(src)
+
+	siteToAttackIndex := getRandIntInRange(randGen, len(needAttackSites))
+
 	siteToAttack := needAttackSites[siteToAttackIndex]
 
-	randProxies := getNRandProxyFromSlice(loadedProxies, responseProxyCount)
+	randProxies, err := getNRandProxyFromSlice(randGen, loadedProxies, responseProxyCount)
+	if err != nil {
+		return nil, err
+	}
 
 	response := &Response{
-		Site:  siteToAttack,
+		Site:  siteResponse{ID: siteToAttack.ID},
 		Proxy: randProxies,
 	}
 
@@ -51,13 +59,13 @@ func main() {
 	lambda.Start(HandleRequest)
 }
 
-func getNRandProxyFromSlice(proxies []proxy, count int) []proxy {
+func getNRandProxyFromSlice(randGenerator *rand.Rand, proxies []proxy, count int) ([]proxy, error) {
 	randProxies := make([]proxy, count)
 
 	proxiesLength := len(proxies)
 
 	for i := 0; i < count; i++ {
-		randIndex := getRandIntInRange(proxiesLength)
+		randIndex := getRandIntInRange(randGenerator, proxiesLength)
 
 		randProxies[i] = proxies[randIndex]
 
@@ -66,7 +74,7 @@ func getNRandProxyFromSlice(proxies []proxy, count int) []proxy {
 		proxiesLength--
 	}
 
-	return randProxies
+	return randProxies, nil
 }
 
 func getSitesFromFile(filename string) ([]site, error) {
