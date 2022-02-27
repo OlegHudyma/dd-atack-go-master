@@ -48,7 +48,11 @@ func HandleRequest() (*Response, error) {
 	}
 
 	response := &Response{
-		Site:  siteResponse{ID: siteToAttack.ID},
+		Site: siteResponse{
+			ID:   siteToAttack.ID,
+			URL:  siteToAttack.URL,
+			Page: siteToAttack.Page,
+		},
 		Proxy: randProxies,
 	}
 

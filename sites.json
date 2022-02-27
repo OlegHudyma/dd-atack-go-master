@@ -181,7 +181,7 @@
     "need_parse_url": 0,
     "page": "https://www.rbc.ru/politics/24/02/2022/6217c1099a79474539808a9a?from=newsfeed",
     "page_time": "0.36738",
-    "atack": 1
+    "atack": 0
   },
   {
     "id": 24,
@@ -429,7 +429,7 @@
     "need_parse_url": 1,
     "page": "https://news.ru/",
     "page_time": "0.00000",
-    "atack": 1
+    "atack": 0
   },
   {
     "id": 55,
@@ -493,7 +493,7 @@
     "need_parse_url": 1,
     "page": "https://www.gosuslugi.ru/",
     "page_time": "0.00000",
-    "atack": 1
+    "atack": 0
   },
   {
     "id": 63,
@@ -556,7 +556,7 @@
     "url": "http://magnit.ru/",
     "need_parse_url": 1,
     "page": "http://magnit.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -564,7 +564,7 @@
     "url": "http://www.nornickel.com/",
     "need_parse_url": 1,
     "page": "http://www.nornickel.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -572,7 +572,7 @@
     "url": "http://www.surgutneftegas.ru/",
     "need_parse_url": 1,
     "page": "http://www.surgutneftegas.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -580,7 +580,7 @@
     "url": "http://www.tatneft.ru/",
     "need_parse_url": 1,
     "page": "http://www.tatneft.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -588,7 +588,7 @@
     "url": "http://www.evraz.com/",
     "need_parse_url": 1,
     "page": "http://www.evraz.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -596,7 +596,7 @@
     "url": "http://nlmk.com/",
     "need_parse_url": 1,
     "page": "http://nlmk.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -604,7 +604,7 @@
     "url": "http://www.sibur.ru/",
     "need_parse_url": 1,
     "page": "http://www.sibur.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -612,7 +612,7 @@
     "url": "http://www.severstal.com/",
     "need_parse_url": 1,
     "page": "http://www.severstal.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -620,7 +620,7 @@
     "url": "http://www.metalloinvest.com/",
     "need_parse_url": 1,
     "page": "http://www.metalloinvest.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -628,7 +628,7 @@
     "url": "http://nangs.org/",
     "need_parse_url": 1,
     "page": "http://nangs.org/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -636,7 +636,7 @@
     "url": "http://rmk-group.ru/",
     "need_parse_url": 1,
     "page": "http://rmk-group.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -644,7 +644,7 @@
     "url": "http://www.tmk-group.ru/",
     "need_parse_url": 1,
     "page": "http://www.tmk-group.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -652,7 +652,7 @@
     "url": "http://ya.ru/",
     "need_parse_url": 1,
     "page": "http://ya.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -660,7 +660,7 @@
     "url": "http://www.polymetalinternational.com/",
     "need_parse_url": 1,
     "page": "http://www.polymetalinternational.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -668,7 +668,7 @@
     "url": "http://www.uralkali.com/",
     "need_parse_url": 1,
     "page": "http://www.uralkali.com/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -676,7 +676,7 @@
     "url": "http://www.eurosib.ru/",
     "need_parse_url": 1,
     "page": "http://www.eurosib.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -684,7 +684,7 @@
     "url": "http://ugmk.ua/",
     "need_parse_url": 1,
     "page": "http://ugmk.ua/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -692,7 +692,7 @@
     "url": "http://omk.ru/",
     "need_parse_url": 1,
     "page": "http://omk.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -700,7 +700,7 @@
     "url": "http://www.vtb.ru/",
     "need_parse_url": 1,
     "page": "http://www.vtb.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -708,7 +708,7 @@
     "url": "http://www.gazprombank.ru/",
     "need_parse_url": 1,
     "page": "http://www.gazprombank.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -716,7 +716,7 @@
     "url": "http://mil.ru/",
     "need_parse_url": 1,
     "page": "http://mil.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -724,7 +724,7 @@
     "url": "http://customs.gov.ru/",
     "need_parse_url": 1,
     "page": "http://customs.gov.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -732,7 +732,7 @@
     "url": "http://pfr.gov.ru/",
     "need_parse_url": 1,
     "page": "http://pfr.gov.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
@@ -740,23 +740,623 @@
     "url": "http://rkn.gov.ru/",
     "need_parse_url": 1,
     "page": "http://rkn.gov.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
     "atack": 0
   },
   {
     "id": 94,
-    "url": "https://cbr.ru/",
+    "url": "http://cbr.ru/",
     "need_parse_url": 1,
     "page": "http://cbr.ru/",
-    "page_time": "0.00000",
-    "atack": 1
+    "page_time": 0,
+    "atack": 0
   },
   {
     "id": 95,
     "url": "http://mail.rkn.gov.ru/",
     "need_parse_url": 1,
     "page": "http://mail.rkn.gov.ru/",
-    "page_time": "0.00000",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 96,
+    "url": "http://yaplakal.com/",
+    "need_parse_url": 1,
+    "page": "http://yaplakal.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 97,
+    "url": "http://ren.tv/",
+    "need_parse_url": 1,
+    "page": "http://ren.tv/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 98,
+    "url": "http://ddos-guard.net/",
+    "need_parse_url": 1,
+    "page": "http://ddos-guard.net/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 99,
+    "url": "http://vk.com/",
+    "need_parse_url": 1,
+    "page": "http://vk.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 100,
+    "url": "http://api.developer.sber.ru/",
+    "need_parse_url": 1,
+    "page": "http://api.developer.sber.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 101,
+    "url": "http://api.sberbank.ru/",
+    "need_parse_url": 1,
+    "page": "http://api.sberbank.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 102,
+    "url": "http://president.gov.by/",
+    "need_parse_url": 1,
+    "page": "http://president.gov.by/",
+    "page_time": 0,
     "atack": 1
+  },
+  {
+    "id": 103,
+    "url": "http://www.belta.by/",
+    "need_parse_url": 1,
+    "page": "http://www.belta.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 104,
+    "url": "http://rec.gov.by/",
+    "need_parse_url": 1,
+    "page": "http://rec.gov.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 105,
+    "url": "http://pikabu.ru/",
+    "need_parse_url": 1,
+    "page": "http://pikabu.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 106,
+    "url": "http://sputnik.by/",
+    "need_parse_url": 1,
+    "page": "http://sputnik.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 107,
+    "url": "http://www.sb.by/",
+    "need_parse_url": 1,
+    "page": "http://www.sb.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 108,
+    "url": "http://www.tvr.by/",
+    "need_parse_url": 1,
+    "page": "http://www.tvr.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 109,
+    "url": "http://www.belarus.by/",
+    "need_parse_url": 1,
+    "page": "http://www.belarus.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 110,
+    "url": "http://sberbank-ast.ru/",
+    "need_parse_url": 1,
+    "page": "http://sberbank-ast.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 111,
+    "url": "http://etp.roseltorg.ru/",
+    "need_parse_url": 1,
+    "page": "http://etp.roseltorg.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 112,
+    "url": "http://zakazrf.ru/",
+    "need_parse_url": 1,
+    "page": "http://zakazrf.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 113,
+    "url": "http://etp-ets.ru/",
+    "need_parse_url": 1,
+    "page": "http://etp-ets.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 114,
+    "url": "http://rts-tender.ru/",
+    "need_parse_url": 1,
+    "page": "http://rts-tender.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 115,
+    "url": "http://gz.lot-online.ru/",
+    "need_parse_url": 1,
+    "page": "http://gz.lot-online.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 116,
+    "url": "http://tektorg.ru/",
+    "need_parse_url": 1,
+    "page": "http://tektorg.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 117,
+    "url": "http://etpgpb.ru/",
+    "need_parse_url": 1,
+    "page": "http://etpgpb.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 118,
+    "url": "http://www.gias.by/",
+    "need_parse_url": 1,
+    "page": "http://www.gias.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 119,
+    "url": "http://goszakupki.by/",
+    "need_parse_url": 1,
+    "page": "http://goszakupki.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 120,
+    "url": "http://butb.by/",
+    "need_parse_url": 1,
+    "page": "http://butb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 121,
+    "url": "http://zakupki.butb.by/",
+    "need_parse_url": 1,
+    "page": "http://zakupki.butb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 122,
+    "url": "http://www.vtb.by/",
+    "need_parse_url": 1,
+    "page": "http://www.vtb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 123,
+    "url": "http://reform.by/",
+    "need_parse_url": 1,
+    "page": "http://reform.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 124,
+    "url": "http://rbank.by/",
+    "need_parse_url": 1,
+    "page": "http://rbank.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 125,
+    "url": "http://yoomoney.ru/",
+    "need_parse_url": 1,
+    "page": "http://yoomoney.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 126,
+    "url": "http://qiwi.com/",
+    "need_parse_url": 1,
+    "page": "http://qiwi.com/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 127,
+    "url": "http://www.tinkoff.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.tinkoff.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 128,
+    "url": "http://mironline.ru/",
+    "need_parse_url": 1,
+    "page": "http://mironline.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 129,
+    "url": "http://belkart.by/",
+    "need_parse_url": 1,
+    "page": "http://belkart.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 130,
+    "url": "http://www.rsb.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.rsb.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 131,
+    "url": "http://alfabank.ru/",
+    "need_parse_url": 1,
+    "page": "http://alfabank.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 132,
+    "url": "http://www.rncb.ru/",
+    "need_parse_url": 1,
+    "page": "http://www.rncb.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 133,
+    "url": "http://vsoloviev.ru/",
+    "need_parse_url": 1,
+    "page": "http://vsoloviev.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 134,
+    "url": "http://3dsec.sberbank.ru/",
+    "need_parse_url": 1,
+    "page": "http://3dsec.sberbank.ru/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 135,
+    "url": "http://belmarket.by/",
+    "need_parse_url": 1,
+    "page": "http://belmarket.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 136,
+    "url": "http://belarus24.by/",
+    "need_parse_url": 1,
+    "page": "http://belarus24.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 137,
+    "url": "http://ont.by/",
+    "need_parse_url": 1,
+    "page": "http://ont.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 138,
+    "url": "http://www.024.by/",
+    "need_parse_url": 1,
+    "page": "http://www.024.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 139,
+    "url": "http://www.belnovosti.by/",
+    "need_parse_url": 1,
+    "page": "http://www.belnovosti.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 140,
+    "url": "http://mogilevnews.by/",
+    "need_parse_url": 1,
+    "page": "http://mogilevnews.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 141,
+    "url": "http://www.mil.by/",
+    "need_parse_url": 1,
+    "page": "http://www.mil.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 142,
+    "url": "http://yandex.by/",
+    "need_parse_url": 1,
+    "page": "http://yandex.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 143,
+    "url": "http://www.slonves.by/",
+    "need_parse_url": 1,
+    "page": "http://www.slonves.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 144,
+    "url": "http://www.ctv.by/",
+    "need_parse_url": 1,
+    "page": "http://www.ctv.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 145,
+    "url": "http://radiobelarus.by/",
+    "need_parse_url": 1,
+    "page": "http://radiobelarus.by/",
+    "page_time": 0,
+    "atack": 1
+  },
+  {
+    "id": 146,
+    "url": "http://radiusfm.by/",
+    "need_parse_url": 1,
+    "page": "http://radiusfm.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 147,
+    "url": "http://alfaradio.by/",
+    "need_parse_url": 1,
+    "page": "http://alfaradio.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 148,
+    "url": "http://radiomir.by/",
+    "need_parse_url": 1,
+    "page": "http://radiomir.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 149,
+    "url": "http://radiostalica.by/",
+    "need_parse_url": 1,
+    "page": "http://radiostalica.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 150,
+    "url": "http://radiobrestfm.by/",
+    "need_parse_url": 1,
+    "page": "http://radiobrestfm.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 151,
+    "url": "http://www.tvrmogilev.by/",
+    "need_parse_url": 1,
+    "page": "http://www.tvrmogilev.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 152,
+    "url": "http://minsknews.by/",
+    "need_parse_url": 1,
+    "page": "http://minsknews.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 153,
+    "url": "http://zarya.by/",
+    "need_parse_url": 1,
+    "page": "http://zarya.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 154,
+    "url": "http://grodnonews.by/",
+    "need_parse_url": 1,
+    "page": "http://grodnonews.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 155,
+    "url": "http://www.government.by/",
+    "need_parse_url": 1,
+    "page": "http://www.government.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 156,
+    "url": "http://www.mvd.gov.by/",
+    "need_parse_url": 1,
+    "page": "http://www.mvd.gov.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 157,
+    "url": "http://www.kgb.by/",
+    "need_parse_url": 1,
+    "page": "http://www.kgb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 158,
+    "url": "http://www.prokuratura.gov.by/",
+    "need_parse_url": 1,
+    "page": "http://www.prokuratura.gov.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 159,
+    "url": "http://www.nbrb.by/",
+    "need_parse_url": 1,
+    "page": "http://www.nbrb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 160,
+    "url": "http://belarusbank.by/",
+    "need_parse_url": 1,
+    "page": "http://belarusbank.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 161,
+    "url": "http://brrb.by/",
+    "need_parse_url": 1,
+    "page": "http://brrb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 162,
+    "url": "http://www.belapb.by/",
+    "need_parse_url": 1,
+    "page": "http://www.belapb.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 163,
+    "url": "http://bankdabrabyt.by/",
+    "need_parse_url": 1,
+    "page": "http://bankdabrabyt.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 164,
+    "url": "http://belinvestbank.by/",
+    "need_parse_url": 1,
+    "page": "http://belinvestbank.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 165,
+    "url": "http://bgp.by/",
+    "need_parse_url": 1,
+    "page": "http://bgp.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 166,
+    "url": "http://www.belneftekhim.by/",
+    "need_parse_url": 1,
+    "page": "http://www.belneftekhim.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 167,
+    "url": "http://www.bellegprom.by/",
+    "need_parse_url": 1,
+    "page": "http://www.bellegprom.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 168,
+    "url": "http://www.energo.by/",
+    "need_parse_url": 1,
+    "page": "http://www.energo.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 169,
+    "url": "http://belres.by/",
+    "need_parse_url": 1,
+    "page": "http://belres.by/",
+    "page_time": 0,
+    "atack": 0
+  },
+  {
+    "id": 170,
+    "url": "http://mininform.gov.by/",
+    "need_parse_url": 1,
+    "page": "http://mininform.gov.by/",
+    "page_time": 0,
+    "atack": 0
   }
 ]

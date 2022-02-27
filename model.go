@@ -7,10 +7,10 @@ type proxy struct {
 }
 
 type site struct {
-	ID int `json:"id"`
-	//URL          string `json:"url"`
+	ID  int    `json:"id"`
+	URL string `json:"url"`
 	//NeedParseURL int    `json:"need_parse_url"`
-	//Page         string `json:"page"`
+	Page string `json:"page"`
 	//PageTime     string `json:"page_time"`
 	Attack int `json:"atack"`
 }
