@@ -1,8 +1,10 @@
 package main
 
 import (
-	crypto_rand "crypto/rand"
+	crand "crypto/rand"
+	"encoding/binary"
 	"io/ioutil"
+	"log"
 	"math/rand"
 )
 
@@ -10,11 +12,22 @@ func readFromFile(filename string) ([]byte, error) {
 	return ioutil.ReadFile(filename)
 }
 
-func getRandIntInRange(randRange int) (int, error) {
-	var b [8]byte
-	_, err := crypto_rand.Read(b[:])
+func getRandIntInRange(randGenerator *rand.Rand, randRange int) int {
+	return randGenerator.Intn(randRange)
+}
+
+type cryptoSource struct{}
+
+func (s cryptoSource) Seed(seed int64) {}
+
+func (s cryptoSource) Int63() int64 {
+	return int64(s.Uint64() & ^uint64(1<<63))
+}
+
+func (s cryptoSource) Uint64() (v uint64) {
+	err := binary.Read(crand.Reader, binary.BigEndian, &v)
 	if err != nil {
-		return 0, err
+		log.Fatal(err)
 	}
-	return rand.Intn(randRange), err
+	return v
 }

@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"github.com/aws/aws-lambda-go/lambda"
+	"math/rand"
 )
 
 const (
@@ -34,14 +35,14 @@ func HandleRequest() (*Response, error) {
 		}
 	}
 
-	siteToAttackIndex, err := getRandIntInRange(len(needAttackSites))
-	if err != nil {
-		return nil, err
-	}
+	var src cryptoSource
+	randGen := rand.New(src)
+
+	siteToAttackIndex := getRandIntInRange(randGen, len(needAttackSites))
 
 	siteToAttack := needAttackSites[siteToAttackIndex]
 
-	randProxies, err := getNRandProxyFromSlice(loadedProxies, responseProxyCount)
+	randProxies, err := getNRandProxyFromSlice(randGen, loadedProxies, responseProxyCount)
 	if err != nil {
 		return nil, err
 	}
@@ -58,16 +59,13 @@ func main() {
 	lambda.Start(HandleRequest)
 }
 
-func getNRandProxyFromSlice(proxies []proxy, count int) ([]proxy, error) {
+func getNRandProxyFromSlice(randGenerator *rand.Rand, proxies []proxy, count int) ([]proxy, error) {
 	randProxies := make([]proxy, count)
 
 	proxiesLength := len(proxies)
 
 	for i := 0; i < count; i++ {
-		randIndex, err := getRandIntInRange(proxiesLength)
-		if err != nil {
-			return nil, err
-		}
+		randIndex := getRandIntInRange(randGenerator, proxiesLength)
 
 		randProxies[i] = proxies[randIndex]
 
