@@ -42,7 +42,11 @@ func HandleRequest() (*Response, error) {
 
 	siteToAttack := needAttackSites[siteToAttackIndex]
 
-	randProxies, err := getNRandProxyFromSlice(randGen, loadedProxies, responseProxyCount)
+	proxiesToProceed := make([]proxy, len(loadedProxies))
+
+	_ = copy(proxiesToProceed, loadedProxies)
+
+	randProxies, err := getNRandProxyFromSlice(randGen, proxiesToProceed, responseProxyCount)
 	if err != nil {
 		return nil, err
 	}
