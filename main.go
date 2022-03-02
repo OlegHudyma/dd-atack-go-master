@@ -9,7 +9,8 @@ import (
 const (
 	siteFilePath       = "./sites.json"
 	proxyFilePath      = "./proxy.json"
-	responseProxyCount = 15
+	responseProxyCount = 20
+	responseSitesCount = 20
 )
 
 var (
@@ -38,25 +39,18 @@ func HandleRequest() (*Response, error) {
 	var src cryptoSource
 	randGen := rand.New(src)
 
-	siteToAttackIndex := getRandIntInRange(randGen, len(needAttackSites))
+	randSites, err := getNRandSitesFromSlice(randGen, responseSitesCount)
+	if err != nil {
+		return nil, err
+	}
 
-	siteToAttack := needAttackSites[siteToAttackIndex]
-
-	proxiesToProceed := make([]proxy, len(loadedProxies))
-
-	_ = copy(proxiesToProceed, loadedProxies)
-
-	randProxies, err := getNRandProxyFromSlice(randGen, proxiesToProceed, responseProxyCount)
+	randProxies, err := getNRandProxyFromSlice(randGen, responseProxyCount)
 	if err != nil {
 		return nil, err
 	}
 
 	response := &Response{
-		Site: siteResponse{
-			ID:   siteToAttack.ID,
-			URL:  siteToAttack.URL,
-			Page: siteToAttack.Page,
-		},
+		Sites: randSites,
 		Proxy: randProxies,
 	}
 
@@ -67,22 +61,48 @@ func main() {
 	lambda.Start(HandleRequest)
 }
 
-func getNRandProxyFromSlice(randGenerator *rand.Rand, proxies []proxy, count int) ([]proxy, error) {
+func getNRandProxyFromSlice(randGenerator *rand.Rand, count int) ([]proxy, error) {
 	randProxies := make([]proxy, count)
 
-	proxiesLength := len(proxies)
+	proxiesToProceed := make([]proxy, len(loadedProxies))
+
+	_ = copy(proxiesToProceed, loadedProxies)
+
+	proxiesLength := len(proxiesToProceed)
 
 	for i := 0; i < count; i++ {
 		randIndex := getRandIntInRange(randGenerator, proxiesLength)
 
-		randProxies[i] = proxies[randIndex]
+		randProxies[i] = proxiesToProceed[randIndex]
 
 		// remove randProxy from loadedProxies slice
-		proxies = append(proxies[:randIndex], proxies[randIndex+1:]...)
+		proxiesToProceed = append(proxiesToProceed[:randIndex], proxiesToProceed[randIndex+1:]...)
 		proxiesLength--
 	}
 
 	return randProxies, nil
+}
+
+func getNRandSitesFromSlice(randGenerator *rand.Rand, count int) ([]site, error) {
+	sitesToProceed := make([]site, len(loadedSites))
+
+	_ = copy(sitesToProceed, loadedSites)
+
+	randSites := make([]site, count)
+
+	proxiesLength := len(sitesToProceed)
+
+	for i := 0; i < count; i++ {
+		randIndex := getRandIntInRange(randGenerator, proxiesLength)
+
+		randSites[i] = sitesToProceed[randIndex]
+
+		// remove randProxy from loadedProxies slice
+		sitesToProceed = append(sitesToProceed[:randIndex], sitesToProceed[randIndex+1:]...)
+		proxiesLength--
+	}
+
+	return randSites, nil
 }
 
 func getSitesFromFile(filename string) ([]site, error) {

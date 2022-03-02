@@ -22,6 +22,6 @@ type siteResponse struct {
 }
 
 type Response struct {
-	Site  siteResponse `json:"site"`
-	Proxy []proxy      `json:"proxy"`
+	Sites []site  `json:"sites"`
+	Proxy []proxy `json:"proxy"`
 }
